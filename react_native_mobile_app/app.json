@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "react_native_mobile_app",
-    "slug": "react_native_mobile_app",
+    "name": "Movie App",
+    "slug": "Movie App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo.png",
     "scheme": "reactnativemobileapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,23 +13,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/images/logo.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web":  {
-      "bundler": "metro"
+      "bundler": "metro",
+      "output":"static",
+      "favicon":"./assets/images/logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
